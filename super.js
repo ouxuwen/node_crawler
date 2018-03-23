@@ -128,7 +128,7 @@ function getData(data) {
                         .pipe(file.createWriteStream(__dirname + '/' + dirName + '/content/' + newImageName))
 
                 }
-
+                //这里定义你想拿的数据
                 newData.push({
                     name: ele.name,
                     price: ele.price,
